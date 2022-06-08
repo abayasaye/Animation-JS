@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- onkeydown="stopWidHieg(event)" -->
+<body onkeydown="stopFuncColors (event)">
+<!-- <body onkeydown="stopFunc(event)"> -->
+    <button onclick="startChange ()">start</button>
+    <button onclick="stopChange ()">stop</button>
+
+    <div id="box">
+
+    </div>
+    <div onclick="colorChange()" id="box2">
+
+    </div>
+    <h2> width&heigth from user</h2>
+    <label for="">width</label>
+    <input  id="width_input" type="number">
+
+    <label for="">height</label>
+    <input id="height_input"  type="number">
+    <button onclick="widthHeightFunc ()">save</button>
+    <div onclick="changeWidHeig  ()" id="box3">
+        box3
+    </div> -->
+    <!-- <button onkeydown="stopWidHieg(event)" id="stop_wh">stopAnim</button>/ -->
+
+
+
+    <br>
+    <h2>input colors</h2>
+    <label for="">width</label>
+    <input id="color_id" type="color">
+
+    <label for="">text from user</label>
+    <input id="text_id" type="text">
+    <button onclick="saveColors()" id="save_colors">save colors</button>
+    <button onclick="stopColors()" id="stop_colors">stop colors</button>
+    <h1 id="prints_colors"></h1>
+
+    <script src="main.js"></script>
+</body>
+</html>
